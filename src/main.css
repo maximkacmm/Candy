@@ -52,9 +52,10 @@ h3 {
 h4 {
   font-family: Gilroy;
   font-size: 14px;
+  color: #FFFFFF;
 }
 
-h5 {
+.h5 {
   font-family: Gilroy-Bold;
   font-size: 14px;
   color: #FFFFFF;
@@ -203,6 +204,7 @@ a {
   justify-content: center;
   margin-top: 40px;
   cursor: pointer;
+  border: none;
 }
 
 .menu {
