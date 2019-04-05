@@ -1,21 +1,23 @@
 * {
-  margin: 0px;
+  margin: 0;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('./font/Gilroy-Regular.woff');
-  src: local('Gilroy Regular'), local('Gilroy-Regular'),
-  url('./font/Gilroy-Regular.woff') format('woff');
+  font-family: "Gilroy";
+  src: url("./font/Gilroy-Regular.woff");
+  src: local("Gilroy Regular"),
+    local("Gilroy-Regular"),
+    url("./font/Gilroy-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Gilroy-Bold';
-  src: url('./font/Gilroy-Bold.woff');
-  src: local('Gilroy-Bold'), local('Gilroy-Bold'),
-  url('./font/Gilroy-Bold.woff') format('woff');
+  font-family: "Gilroy-Bold";
+  src: url("./font/Gilroy-Bold.woff");
+  src: local("Gilroy-Bold"),
+    local("Gilroy-Bold"),
+    url("./font/Gilroy-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -25,8 +27,8 @@ body {
 }
 
 p {
-  font-family: 'Roboto';
-  color: #6E7680;
+  font-family: "Roboto";
+  color: #6e7680;
   font-size: 14px;
 }
 
@@ -52,18 +54,18 @@ h3 {
 h4 {
   font-family: Gilroy;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .h5 {
   font-family: Gilroy-Bold;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #fff;
   padding: 10px 0;
 }
 
 hr {
-  background: #F0F4F7;
+  background: #f0f4f7;
   opacity: 0.5;
   margin: 10px 0;
 }
@@ -90,7 +92,7 @@ article {
 .circle {
   width: 24px;
   height: 24px;
-  background-color: #F0F4F7;
+  background-color: #f0f4f7;
   border-radius: 50%;
   border: none;
   display: flex;
@@ -106,9 +108,9 @@ article {
 .circle_green {
   width: 24px;
   height: 24px;
-  background-color: #F0F4F7;
+  background-color: #f0f4f7;
   border-radius: 50%;
-  border: 2px solid #6BCA3E;
+  border: 2px solid #6bca3e;
   cursor: pointer;
 }
 
@@ -118,19 +120,18 @@ footer {
 }
 
 ul {
-  color: #FFFFFF;
+  color: #fff;
   font-size: 14px;
   padding: 0;
   list-style-type: none;
   max-width: 215px;
-  font-size: 14px;
 }
 
 li {
-  color: #A8B3C2;
+  color: #a8b3c2;
   font-size: 12px;
   padding: 0;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .footer_list {
@@ -148,7 +149,7 @@ li {
   padding-right: 50px;
   padding-bottom: 20px;
   font-size: 11px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   padding-top: 30px;
 }
 
@@ -160,7 +161,7 @@ span {
 a {
   text-decoration: none;
   color: green;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .framework {
@@ -179,7 +180,7 @@ a {
   width: 76px;
   height: 28px;
   justify-content: flex-end;
-  border: 2px solid #E2EAF0;
+  border: 2px solid #e2eaf0;
 }
 
 .points {
@@ -216,7 +217,7 @@ label {
 }
 
 input {
-  background: #F0F4F7;
+  background: #f0f4f7;
   border: none;
   border-radius: 30px;
   height: 60px;
@@ -239,7 +240,7 @@ input {
 .email_button {
   border-radius: 50%;
   background-color: #fff;
-  border: 2px solid #E2EAF0;
+  border: 2px solid #e2eaf0;
   width: 45px;
   height: 45px;
   position: absolute;
@@ -249,31 +250,29 @@ input {
   cursor: pointer;
 }
 
-
 input:hover {
-  background: #E2EAF0;
+  background: #e2eaf0;
 }
 
 input:focus {
-  background: #FFFFFF;
-  border: 2px solid #E2EAF0;
+  background: #fff;
+  border: 2px solid #e2eaf0;
   box-sizing: border-box;
   padding-left: 28px;
 }
 
 /*input:invalid {*/
-  /*background: rgba(218, 67, 83, 0.1);*/
-  /*border: 2px solid rgba(218, 67, 83, 0.4);*/
-  /*box-sizing: border-box;*/
-  /*padding-left: 28px;*/
-  /*color: #DA4353;*/
+/*background: rgba(218, 67, 83, 0.1);*/
+/*border: 2px solid rgba(218, 67, 83, 0.4);*/
+/*box-sizing: border-box;*/
+/*padding-left: 28px;*/
+/*color: #DA4353;*/
 /*}*/
 
-.email-input:valid{
-  background: #FFFFFF;
-  border: 2px solid #6BCA3E;
+.email-input:valid {
+  background: #fff;
+  border: 2px solid #6bca3e;
   box-sizing: border-box;
   padding-left: 28px;
   color: #313335;
 }
-
