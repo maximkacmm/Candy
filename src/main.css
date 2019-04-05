@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./font/Gilroy-Regular.woff');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+  url('./font/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./font/Gilroy-Bold.woff');
+  src: local('Gilroy-Bold'), local('Gilroy-Bold'),
+  url('./font/Gilroy-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 1440px;
+}
+
+p {
+  font-family: 'Roboto';
+  color: #6E7680;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: Gilroy;
+  font-size: 10px;
+  color: #902156;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: Gilroy;
+  font-size: 14px;
+}
+
+h5 {
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+hr {
+  background: #F0F4F7;
+  opacity: 0.5;
+  margin: 10px 0;
+}
+
+.content {
+  height: 100vh;
+}
+
+article {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1060px;
+  justify-content: space-around;
+}
+
+.about_us {
+  width: 400px;
+  height: 300px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  background-color: #F0F4F7;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle_green {
+  width: 24px;
+  height: 24px;
+  background-color: #F0F4F7;
+  border-radius: 50%;
+  border: 2px solid #6BCA3E;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #313335;
+  padding-top: 135px;
+}
+
+ul {
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 0;
+  list-style-type: none;
+  max-width: 215px;
+  font-size: 14px;
+}
+
+li {
+  color: #A8B3C2;
+  font-size: 12px;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+.footer_list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1035px;
+}
+
+.signature {
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  font-size: 11px;
+  font-family: 'Roboto';
+  padding-top: 30px;
+}
+
+span {
+  text-decoration: none;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  font-family: 'Roboto';
+}
+
+.framework {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.link {
+  font-family: Gilroy-Bold;
+  font-size: 10px;
+  color: #313335;
+  box-sizing: border-box;
+  border-radius: 22px;
+  background-color: #fff;
+  width: 76px;
+  height: 28px;
+  justify-content: flex-end;
+  border: 2px solid #E2EAF0;
+}
+
+.points {
+  background-color: #fff;
+  border: none;
+  width: 4px;
+  height: 16px;
+  justify-content: center;
+}
+
+.framework_points {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.all_candy {
+  background-color: #902156;
+  display: flex;
+  border-radius: 22px;
+  justify-content: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.menu {
+  padding-top: 50px;
+}
+
+label {
+  border-radius: 30px;
+}
+
+input {
+  background: #F0F4F7;
+  border: none;
+  border-radius: 30px;
+  height: 60px;
+  width: 100%;
+  padding-left: 30px;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.entry_field {
+  max-width: 470px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.email_button {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #E2EAF0;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 10px;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+input:hover {
+  background: #E2EAF0;
+}
+
+input:focus {
+  background: #FFFFFF;
+  border: 2px solid #E2EAF0;
+  box-sizing: border-box;
+  padding-left: 28px;
+}
+
+/*input:invalid {*/
+  /*background: rgba(218, 67, 83, 0.1);*/
+  /*border: 2px solid rgba(218, 67, 83, 0.4);*/
+  /*box-sizing: border-box;*/
+  /*padding-left: 28px;*/
+  /*color: #DA4353;*/
+/*}*/
+
+.email-input:valid{
+  background: #FFFFFF;
+  border: 2px solid #6BCA3E;
+  box-sizing: border-box;
+  padding-left: 28px;
+  color: #313335;
+}
+
