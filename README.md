@@ -1,6 +1,6 @@
 # Project Name
 
-### [Demo](https://maximkacmm.github.io/Candy/)
+### [Demo](https://maximkacmm.github.io/Candy/src/index.html)
 
 ### Description
 
