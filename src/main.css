@@ -24,6 +24,7 @@
 
 body {
   width: 1440px;
+  margin: 0 auto;
 }
 
 p {
@@ -72,7 +73,6 @@ hr {
 
 .content {
   height: 100vh;
-  margin: 0 auto;
 }
 
 article {
