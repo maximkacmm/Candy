@@ -13,11 +13,13 @@
 <main class="content">
   <article>
     <section class="about_us">
-      <h1>
-        Цукерочки
-        <img src="../images/candy.svg" alt="candy">
-      </h1>
-      <p>
+      <div class="h1">
+        <h1>
+          Цукерочки
+        </h1>
+        <img class="img-candy" src="../images/candy.svg" alt="candy">
+      </div>
+      <p class="p-about_us">
         Дуже багато нових рішень та крутих фіч які економлять час та покращуюсь вашу роботу в десятки разів.
         Ласкаво
         просимо до ознайомлення. Немає часу на перегляд всього? Підпишись та отримуй найцікавіше в одному листі
@@ -25,11 +27,12 @@
         на тиждень.
       </p>
       <hr>
-      <br>
-      <h2>
-        Отримуйте першим нові цукерочки
-        <img src="../images/fire.svg" alt="image_fire">
-      </h2>
+      <div class="h2h2">
+        <h2>
+          Отримуйте першим нові цукерочки
+        </h2>
+        <img class="fire" src="../images/fire.svg" alt="image_fire">
+      </div>
 
       <form>
         <div class="entry_field">
@@ -42,44 +45,44 @@
 
     </section>
     <section class="about_us menu">
-      <div class="tabs">
-        <button class="circle_green">
+      <nav class="tabs">
+        <a class="circle_green">
           <img src="../images/MENU.svg" alt="menu">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/js.svg" alt="js">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/LINUX.svg" alt="LINUX">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/css-3.svg" alt="css-3">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/html-5.svg" alt="html-5">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/python.svg" alt="python">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/ruby.svg" alt="ruby">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/php.svg" alt="php">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/android.svg" alt="android">
-        </button>
-        <button class="circle">
+        </a>
+        <a class="circle">
           <img src="../images/java.svg" alt="java">
-        </button>
-      </div>
+        </a>
+      </nav>
       <hr>
       <div class="framework">
         <div class="framework_inner">
           <h3>#JAVASCRIPT</h3>
-          <h2>Moeditor</h2>
-          <p>CSS фреймворк та директива від GitHub</p>
+          <h2 class="h2-framework">Moeditor</h2>
+          <p class="p-about_us-menu">CSS фреймворк та директива від GitHub</p>
         </div>
         <div class="framework_points">
           <button class="points">
@@ -94,8 +97,8 @@
       <div class="framework">
         <div class="framework_inner">
           <h3>#JAVASCRIPT</h3>
-          <h2>waitMe</h2>
-          <p>CSS фреймворк та директива від GitHub</p>
+          <h2 class="h2-framework">waitMe</h2>
+          <p class="p-about_us-menu">CSS фреймворк та директива від GitHub</p>
         </div>
         <div class="framework_points">
           <button class="points">
@@ -110,8 +113,8 @@
       <div class="framework">
         <div class="framework_inner">
           <h3>#JAVASCRIPT</h3>
-          <h2>Primer</h2>
-          <p>CSS фреймворк та директива від GitHub</p>
+          <h2 class="h2-framework">Primer</h2>
+          <p class="p-about_us-menu">CSS фреймворк та директива від GitHub</p>
         </div>
         <div class="framework_points">
           <button class="points">
@@ -126,8 +129,8 @@
       <div class="framework">
         <div class="framework_inner">
           <h3>#JAVASCRIPT</h3>
-          <h2>Django spurl</h2>
-          <p>CSS фреймворк та директива від GitHub</p>
+          <h2 class="h2-framework">Django spurl</h2>
+          <p class="p-about_us-menu">CSS фреймворк та директива від GitHub</p>
         </div>
         <div class="framework_points">
           <button class="points">
@@ -146,67 +149,69 @@
   </article>
 </main>
 <footer>
-  <div class="footer_list">
-    <div class="list">
-      <h4>Статті</h4>
-      <br>
-      <ul>
-        <li>JavaScript</li>
-        <li>Linux</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>PHP</li>
-        <li>Java</li>
-      </ul>
-    </div>
-    <div class="list">
-      <h4>Цукерочки</h4>
-      <br>
-      <ul>
-        <li>JavaScript</li>
-        <li>Linux</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>PHP</li>
-        <li>Java</li>
-      </ul>
-    </div>
-    <div class="list">
-      <h4>Новини</h4>
-      <br>
-      <ul>
-        <li>Останні</li>
-        <li>Популярні</li>
-        <li>Дайджести</li>
-      </ul>
-    </div>
-    <div class="list">
-        <h4>Зв’язок з редакцією</h4>
+  <div class="row">
+    <div class="footer_list">
+      <div class="list">
+        <h4 class="h4-footer">Статті</h4>
         <br>
         <ul>
-        <li>Загальні питання</li>
-        <li><a href="admin@codeguida.com"><span>admin@codeguida.com</span></a></li>
-        <li><br></li>
-        <li>Співпраця</li>
-        <li><a href="adv@codeguida.com"><span>adv@codeguida.com</span></a></li>
-      </ul>
+          <li>JavaScript</li>
+          <li>Linux</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Python</li>
+          <li>Ruby</li>
+          <li>PHP</li>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h4 class="h4-footer">Цукерочки</h4>
+        <br>
+        <ul>
+          <li>JavaScript</li>
+          <li>Linux</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Python</li>
+          <li>Ruby</li>
+          <li>PHP</li>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h4 class="h4-footer">Новини</h4>
+        <br>
+        <ul>
+          <li>Останні</li>
+          <li>Популярні</li>
+          <li>Дайджести</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h4 class="h4-footer">Зв’язок з редакцією</h4>
+        <br>
+        <ul>
+          <li>Загальні питання</li>
+          <li><a href="admin@codeguida.com"><span>admin@codeguida.com</span></a></li>
+          <li><br></li>
+          <li>Співпраця</li>
+          <li><a href="adv@codeguida.com"><span>adv@codeguida.com</span></a></li>
+        </ul>
+      </div>
+      <div class="list">
+        <h4 class="h4-footer">Знайшли помилку?</h4>
+        <br>
+        <ul>
+          <li>Знайшли помилку — виділіть в тексті
+            фрагмент з помилкую та нитисніть
+            <span>Ctrl+Enter</span>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="list">
-      <h4>Знайшли помилку?</h4>
-      <br>
-      <ul>
-        <li>Знайшли помилку — виділіть в тексті
-          фрагмент з помилкую та нитисніть
-          <span>Ctrl+Enter</span>
-        </li>
-      </ul>
+    <div class="signature">© 2019 Codeguida.com. При використанні матеріалів зворотнє посилання на сайт обов'язкове
     </div>
-  </div>
-  <div class="signature">© 2019 Codeguida.com. При використанні матеріалів зворотнє посилання на сайт обов'язкове
   </div>
 </footer>
 </body>

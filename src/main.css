@@ -6,8 +6,8 @@
   font-family: "Gilroy";
   src: url("./font/Gilroy-Regular.woff");
   src: local("Gilroy Regular"),
-    local("Gilroy-Regular"),
-    url("./font/Gilroy-Regular.woff") format("woff");
+  local("Gilroy-Regular"),
+  url("./font/Gilroy-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,21 +16,32 @@
   font-family: "Gilroy-Bold";
   src: url("./font/Gilroy-Bold.woff");
   src: local("Gilroy-Bold"),
-    local("Gilroy-Bold"),
-    url("./font/Gilroy-Bold.woff") format("woff");
+  local("Gilroy-Bold"),
+  url("./font/Gilroy-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  /*max-width: 1440px;*/
   margin: 0 auto;
 }
 
-p {
+.p-about_us {
+  font-family: "Roboto";
+  color: #6e7680;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 28px 10px 0;
+}
+
+.p-about_us-menu {
   font-family: "Roboto";
   color: #6e7680;
   font-size: 14px;
+  line-height: 21px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+
 }
 
 h1 {
@@ -39,58 +50,95 @@ h1 {
   font-weight: bold;
 }
 
+.h1 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 h2 {
   font-family: Gilroy-Bold;
   font-size: 18px;
-  margin-bottom: 10px;
+  line-height: normal;
 }
 
+.h2-framework {
+  margin-top: -1px;
+}
+
+.h2h2 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.fire {
+  margin-left: 10px;
+}
+
+
 h3 {
-  font-family: Gilroy;
+  font-family: Gilroy-Bold;
   font-size: 10px;
   color: #902156;
   margin-bottom: 5px;
+  letter-spacing: 0.1em;
 }
 
+x
 h4 {
   font-family: Gilroy;
   font-size: 14px;
   color: #fff;
 }
 
+.h4-footer {
+  font-family: Gilroy;
+  font-size: 14px;
+  color: #fff
+}
+
 .h5 {
   font-family: Gilroy-Bold;
   font-size: 14px;
   color: #fff;
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 hr {
   background: #f0f4f7;
   opacity: 0.5;
-  margin: 10px 0;
+  margin: 16px 0;
+}
+
+.img-candy {
+  padding-left: 30px;
 }
 
 .content {
   display: flex;
+  max-width: 1090px;
+  margin: 0 auto;
+
 }
 
 article {
   display: flex;
-  margin: 0 auto 30px;
-  max-width: 1060px;
-  justify-content: space-around;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .about_us {
-  width: 400px;
-  margin-top: 80px;
+  width: 470px;
+  margin-top: 160px;
   display: flex;
   flex-direction: column;
 }
 
 .menu {
-  margin-top: 50px;
+  margin-top: 120px;
 }
 
 .circle {
@@ -105,8 +153,9 @@ article {
 }
 
 .tabs {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
+  padding-right: 46px;
 }
 
 .circle_green {
@@ -116,11 +165,20 @@ article {
   border-radius: 50%;
   border: 2px solid #6bca3e;
   cursor: pointer;
+  display: flex;
+  justify-content: center
 }
 
 footer {
   background-color: #313335;
-  /*padding-top: 135px;*/
+  margin-top: 60px;
+}
+
+.row {
+  display: flex;
+  max-width: 1090px;
+  margin: 0 auto;
+  flex-direction: column;
 }
 
 ul {
@@ -140,17 +198,14 @@ li {
 
 .footer_list {
   display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  max-width: 1035px;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 75px;
 }
 
 .signature {
-  margin: 0 auto;
-  max-width: 980px;
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
   padding-bottom: 20px;
   font-size: 11px;
   font-family: "Roboto";
@@ -172,6 +227,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0 15px;
+  margin-top: 10px;
 }
 
 .link {
@@ -181,11 +237,13 @@ a {
   box-sizing: border-box;
   border-radius: 22px;
   background-color: #fff;
-  max-width: 76px;
-  max-height: 28px;
   justify-content: flex-end;
   border: 2px solid #e2eaf0;
   cursor: pointer;
+  padding: 6px 24px;
+  letter-spacing: 0.1em;
+  margin-bottom: 2px;
+  margin-right: 10px;
 }
 
 .points {
@@ -195,6 +253,8 @@ a {
   max-height: 16px;
   justify-content: center;
   cursor: pointer;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .framework_points {
@@ -212,7 +272,7 @@ a {
   margin-top: 40px;
   cursor: pointer;
   border: none;
-  max-width: 400px;
+  width: 100%;
 }
 
 label {
