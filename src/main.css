@@ -208,11 +208,7 @@ li {
   font-size: 11px;
   font-family: "Roboto";
   padding-top: 30px;
-}
-
-span {
-  text-decoration: none;
-  color: green;
+  color: #6e7680;
 }
 
 a {
@@ -347,4 +343,32 @@ label {
   box-sizing: border-box;
   padding-left: 28px;
   color: #313335;
+}
+
+.a-footer {
+  text-decoration: none;
+  font-family: Roboto;
+  color: #a8b3c2;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.contact-title {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+}
+
+.ctrl-enter {
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 18px;
 }

@@ -22,7 +22,7 @@
   "devDependencies": {
     "@mate-academy/stylelint-config": "latest",
     "@mate-academy/htmllint-config": "latest",
-    "@mate-academy/editor-config": "latest",
+    "@mate-academy/editor-config":   "latest",
     "@mate-academy/eslint-config": "latest",
     "browser-sync": "^2.26.3",
     "eslint": "^5.13.0",
