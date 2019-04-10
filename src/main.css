@@ -7,7 +7,8 @@
   src: url("./font/Gilroy-Regular.woff");
   src: local("Gilroy Regular"),
     local("Gilroy-Regular"),
-    url("./font/Gilroy-Regular.woff") format("woff");
+    url("./font/Gilroy-Regular.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +18,8 @@
   src: url("./font/Gilroy-Bold.woff");
   src: local("Gilroy-Bold"),
     local("Gilroy-Bold"),
-    url("./font/Gilroy-Bold.woff") format("woff");
+    url("./font/Gilroy-Bold.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -41,29 +43,24 @@ body {
   line-height: 21px;
   margin-top: 16px;
   margin-bottom: 6px;
-
 }
 
-h1 {
+.h1 {
   font-family: Gilroy-Bold;
   font-size: 48px;
   font-weight: bold;
 }
 
-.h1 {
+.headline {
   display: flex;
   align-items: center;
   box-sizing: border-box;
 }
 
-h2 {
+.h2-framework {
   font-family: Gilroy-Bold;
   font-size: 18px;
   line-height: normal;
-}
-
-.h2-framework {
-  margin-top: -1px;
 }
 
 .h2h2 {
@@ -77,24 +74,19 @@ h2 {
   margin-left: 10px;
 }
 
-h3 {
+.class-h3 {
   font-family: Gilroy-Bold;
   font-size: 10px;
   color: #902156;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   letter-spacing: 0.1em;
 }
 
-h4 {
-  font-family: Gilroy;
-  font-size: 14px;
-  color: #fff;
-}
-
 .h4-footer {
-  font-family: Gilroy;
+  font-family: Gilroy-Bold;
   font-size: 14px;
   color: #fff;
+  margin-bottom: 25px;
 }
 
 .h5 {
@@ -150,21 +142,20 @@ article {
   cursor: pointer;
 }
 
+.circle:hover {
+  background: #e2eaf0;
+}
+
+.circle:active {
+  background-color: #fff;
+  border: 2px solid #6bca3e;
+  box-sizing: border-box;
+}
+
 .tabs {
   display: inline-flex;
   justify-content: space-between;
   padding-right: 46px;
-}
-
-.circle_green {
-  width: 24px;
-  height: 24px;
-  background-color: #f0f4f7;
-  border-radius: 50%;
-  border: 2px solid #6bca3e;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
 }
 
 footer {
@@ -211,10 +202,9 @@ li {
   color: #6e7680;
 }
 
-a {
+.contact-link {
   text-decoration: none;
   color: green;
-  font-family: "Roboto";
 }
 
 .framework {
@@ -238,13 +228,24 @@ a {
   letter-spacing: 0.1em;
   margin-bottom: 2px;
   margin-right: 10px;
+  outline: none;
+}
+
+.link:hover {
+  color: #902156;
+  border: 2px solid #902156;
+}
+
+.link:focus {
+  color: #6bca3e;
+  border: 2px solid #6bca3e;
 }
 
 .points {
   background-color: #fff;
   border: none;
-  max-width: 4px;
-  max-height: 16px;
+  max-width: 15px;
+  max-height: 20px;
   justify-content: center;
   cursor: pointer;
   margin-right: 10px;
@@ -269,8 +270,8 @@ a {
   width: 100%;
 }
 
-label {
-  border-radius: 30px;
+.all_candy:hover {
+  background: #ae2968;
 }
 
 .email-input {
@@ -351,6 +352,7 @@ label {
   color: #a8b3c2;
   font-size: 12px;
   line-height: 20px;
+  padding: 10px 0;
 }
 
 .contact-title {
@@ -371,4 +373,5 @@ label {
   font-family: Roboto;
   font-size: 12px;
   line-height: 18px;
+  margin-bottom: 20px;
 }
