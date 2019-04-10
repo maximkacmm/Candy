@@ -1,6 +1,6 @@
 # Candy
 
-### [Demo](https://github.com/maximkacmm/Candy/src/index.html)
+### [Demo](https://maximkacmm.github.io/Candy/src/index.html)
 
 ### Description
 
